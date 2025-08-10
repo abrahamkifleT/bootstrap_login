@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       {/* nav bar */}
-      <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+      <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
         <div className="container">
           {" "}
           <a href="#" className="navbar-brand">
@@ -201,6 +201,151 @@ function App() {
             </div>
             <div className="col-md">
               <img src="/img/react.svg" alt="Learn" className="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Question Accordian */}
+      <section id="questions" className="p-5">
+        <div className="container">
+          <h2 className="text-center mb-4">Frequently Asked Questions</h2>
+          <div class="accordion accordion-flush" id="questions">
+            {/* item 1 */}
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-one"
+                >
+                  Where exactly are you located?
+                </button>
+              </h2>
+              <div
+                id="question-one"
+                class="accordion-collapse collapse"
+                data-bs-parent="#questions"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the class. This is the first item’s accordion
+                  body.
+                </div>
+              </div>
+            </div>
+            {/* item 2 */}
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-two"
+                >
+                  How much does it cost to attend?
+                </button>
+              </h2>
+              <div
+                id="question-two"
+                class="accordion-collapse collapse"
+                data-bs-parent="#Questions"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the second item’s accordion body. Let’s imagine this being
+                  filled with some actual content.
+                </div>
+              </div>
+            </div>
+            {/* item 3 */}
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-three"
+                >
+                  What do I need to know?
+                </button>
+              </h2>
+              <div
+                id="question-three"
+                class="accordion-collapse collapse"
+                data-bs-parent="#Questions"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the third item’s accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the
+                  space to make it look, at least at first glance, a bit more
+                  representative of how this would look in a real-world
+                  application.
+                </div>
+              </div>
+            </div>
+
+            {/* Item four */}
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-four"
+                >
+                  How Do I sign up?
+                </button>
+              </h2>
+              <div
+                id="question-four"
+                class="accordion-collapse collapse"
+                data-bs-parent="#Questions"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the third item’s accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the
+                  space to make it look, at least at first glance, a bit more
+                  representative of how this would look in a real-world
+                  application.
+                </div>
+              </div>
+            </div>
+
+            {/* Item five */}
+
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button
+                  class="accordion-button collapsed"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#question-five"
+                >
+                  Do you help me find a job?
+                </button>
+              </h2>
+              <div
+                id="question-five"
+                class="accordion-collapse collapse"
+                data-bs-parent="#Questions"
+              >
+                <div class="accordion-body">
+                  Placeholder content for this accordion, which is intended to
+                  demonstrate the <code>.accordion-flush</code> class. This is
+                  the third item’s accordion body. Nothing more exciting
+                  happening here in terms of content, but just filling up the
+                  space to make it look, at least at first glance, a bit more
+                  representative of how this would look in a real-world
+                  application.
+                </div>
+              </div>
             </div>
           </div>
         </div>
