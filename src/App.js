@@ -180,6 +180,31 @@ function App() {
           </div>
         </div>
       </section>
+
+      <section id="learn" className="p-5 bg-dark text-light">
+        <div className="container">
+          <div className="row align-items-center justify-content-between">
+            <div className="col-md p-5">
+              <h2>Learn React</h2>
+              <p className="lead">
+                lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                similique deleniti possimus magnam corporis ratione facere!
+              </p>
+              <p>
+                lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                similique deleniti possimus magnam corporis ratione facere!
+              </p>
+              <a className="btn btn-light mt-3">
+                {" "}
+                <i className="bi bi-chevron-right"></i>Read More
+              </a>
+            </div>
+            <div className="col-md">
+              <img src="/img/react.svg" alt="Learn" className="img-fluid" />
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
