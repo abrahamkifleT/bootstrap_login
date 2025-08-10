@@ -68,6 +68,16 @@ function App() {
           </div>
         </div>
       </section>
+
+      {/* Newsletter */}
+
+      <section className="bg-primary text-light p-5">
+        <div className="container">
+          <div className="d-md-flex justify-content-between align-items-center">
+            <h3 className="mb-3 mb-md-0">Sign Up For Our New letter</h3>
+          </div>
+        </div>
+      </section>
     </div>
   );
 }
