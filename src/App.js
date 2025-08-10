@@ -75,20 +75,18 @@ function App() {
         <div className="container">
           <div className="d-md-flex justify-content-between align-items-center">
             <h3 className="mb-3 mb-md-0">Sign Up For Our New letter</h3>
-          </div>
-        </div>
 
-        <div class="input-group mb-3">
-          <input
-            type="text"
-            class="form-control"
-            placeholder="Recipient’s username"
-            aria-label="Recipient’s username"
-            aria-describedby="basic-addon2"
-          />
-          <span class="input-group-text" id="basic-addon2">
-            @example.com
-          </span>
+            <div class="input-group news-input">
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter Email"
+              />
+              <button className="btn btn-dark btn-lg" type="button">
+                button
+              </button>
+            </div>
+          </div>
         </div>
       </section>
     </div>
