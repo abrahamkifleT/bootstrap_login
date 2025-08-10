@@ -4,9 +4,10 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function App() {
   return (
-    <div className="container">
-      <h1>My First Bootstrap Page</h1>
-      <p>This is some text</p>
+    <div className="row">
+      <div className="col-sm-4">.col-sm-4</div>
+      <div className="col-sm-4">.col-sm-4</div>
+      <div className="col-sm-4">.col-sm-4</div>
     </div>
   );
 }
