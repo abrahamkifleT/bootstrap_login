@@ -95,7 +95,7 @@ function App() {
 
       <section className="p-5">
         <div className="container">
-          <div className="row text-center ">
+          <div className="row text-center g-4">
             <div className="col-md">
               <div className="card bg-dark text-light">
                 <div className="card-body text-center">
@@ -146,6 +146,36 @@ function App() {
                   </a>
                 </div>
               </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Learn Sections */}
+      <section id="learn" className="p-5">
+        <div className="container">
+          <div className="row align-items-center justify-content-between">
+            <div className="col-md">
+              <img
+                src="/img/fundamentals.svg"
+                alt="Learn"
+                className="img-fluid"
+              />
+            </div>
+            <div className="col-md p-5">
+              <h2>Learn The Fundamentals</h2>
+              <p className="lead">
+                lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                similique deleniti possimus magnam corporis ratione facere!
+              </p>
+              <p>
+                lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                similique deleniti possimus magnam corporis ratione facere!
+              </p>
+              <a className="btn btn-light mt-3">
+                {" "}
+                <i className="bi bi-chevron-right"></i>Read More
+              </a>
             </div>
           </div>
         </div>
