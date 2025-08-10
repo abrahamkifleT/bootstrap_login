@@ -44,27 +44,30 @@ function App() {
       </nav>
 
       {/* Showcase */}
-      <div className="bg-dark text-light p-5 text-center">
+      <section className="bg-dark text-light p-5 text-center text-sm-start">
         <div className="container">
           <div className="d-sm-flex ">
             <div>
               <h1>
                 Become a <span className="text-warning"> web Developer </span>
               </h1>
-              <p>
+              <p className="lead my-4">
                 we focus on teaching our students the fundamentals of the latest
                 and greatest technologies to prepare them for their first dev
                 role.
               </p>
+              <button className="btn btn-primary btn-lg">
+                Start The Enrollment
+              </button>
             </div>
             <img
-              className="img-fluid w-50"
+              className="img-fluid w-50 d-none d-sm-block"
               src="/img/showcase.svg"
               alt="Showcase"
             />
           </div>
         </div>
-      </div>
+      </section>
     </div>
   );
 }
