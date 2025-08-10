@@ -44,7 +44,7 @@ function App() {
       </nav>
 
       {/* Showcase */}
-      <section className="bg-dark text-light p-5 text-center text-sm-start">
+      <section className="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
         <div className="container">
           <div className="d-sm-flex align-items-center justify-content-between">
             <div>
@@ -76,6 +76,19 @@ function App() {
           <div className="d-md-flex justify-content-between align-items-center">
             <h3 className="mb-3 mb-md-0">Sign Up For Our New letter</h3>
           </div>
+        </div>
+
+        <div class="input-group mb-3">
+          <input
+            type="text"
+            class="form-control"
+            placeholder="Recipient’s username"
+            aria-label="Recipient’s username"
+            aria-describedby="basic-addon2"
+          />
+          <span class="input-group-text" id="basic-addon2">
+            @example.com
+          </span>
         </div>
       </section>
     </div>
