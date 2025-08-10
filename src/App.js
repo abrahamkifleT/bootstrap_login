@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       {/* nav bar */}
-      <nav className="navbar navbar-expand-lg bg-dark navbar-dark">
+      <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3">
         <div className="container">
           {" "}
           <a href="#" className="navbar-brand">
@@ -46,7 +46,7 @@ function App() {
       {/* Showcase */}
       <section className="bg-dark text-light p-5 text-center text-sm-start">
         <div className="container">
-          <div className="d-sm-flex ">
+          <div className="d-sm-flex align-items-center justify-content-between">
             <div>
               <h1>
                 Become a <span className="text-warning"> web Developer </span>
