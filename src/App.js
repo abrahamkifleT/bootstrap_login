@@ -51,6 +51,11 @@ function App() {
               <h1>
                 Become a <span className="text-warning"> web Developer </span>
               </h1>
+              <p>
+                we focus on teaching our students the fundamentals of the latest
+                and greatest technologies to prepare them for their first dev
+                role.
+              </p>
             </div>
             <img
               className="img-fluid w-50"
